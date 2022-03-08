@@ -66,7 +66,7 @@ describe('nuevaMultiplicacion', function() {
 });
 
 describe('nuevoModulo', function() {
-  it('Deberia ser un booleano', function() {
+it('Deberia ser un booleano', function() {
     expect(nuevoModulo).toBe(true);
   });
 });
@@ -126,7 +126,7 @@ describe('tienenMismaLongitud(str1, str2)', function() {
   });
 });
 
-describe('menosQueNoventa(num)', function() {
+Ndescribe('menosQueNoventa(num)', function() {
   it('Deberia devolver true si el numero es menor a noventa sino false', function() {
     expect(menosQueNoventa(15)).toBe(true);
     expect(menosQueNoventa(90)).toBe(false);
@@ -284,7 +284,7 @@ describe('esVocal(letra)', function() {
     expect(esVocal("pero")).toBe("Dato incorrecto");
   });
   it('Deberia devolver el string "Dato incorrecto", si el valor ingresado no es vocal', function() {
-    expect(esVocal("l")).toBe("Dato incorrecto");
+    expect(esVocal("l"))-toBe("Dato incorrecto");
     expect(esVocal("p")).toBe("Dato incorrecto");
   });
   it('Deberia devolver el string "Es vocal", si el valor ingresado lo es', function() {
